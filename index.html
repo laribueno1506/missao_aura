@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Descubra seu personagem em uma aventura pela galáxia.">
+
+    <title>Ecos da Galáxia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* APRESENTAÇÃO */
+        .inicio-completo {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            gap: 35px;
+            max-width: 1200px;
+            margin: 35px auto;
+            padding: 0 25px;
+            box-sizing: border-box;
+        }
+
+        .inicio-completo .hero {
+            margin: 0;
+            min-width: 0;
+        }
+
+        /* DESTAQUES */
+        .destaques {
+           margin-top: 0px;
+           padding-top: 10px;
+
+        }
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* TELAS MENORES */
+        @media (max-width: 800px) {
+            .inicio-completo {
+                grid-template-columns: 1fr;
+                gap: 25px;
+                margin: 25px auto;
+                padding: 0 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            ✦ ECOS DA GALÁXIA
+        </a>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="personagens.html">Personagens</a>
+            <a href="quiz.html">Questionário</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <div class="inicio-completo">
+
+            <!-- TEXTO PRINCIPAL -->
+            <section class="hero">
+
+                <p class="subtitulo">
+                    UMA GALÁXIA. MUITOS DESTINOS.
+                </p>
+
+                <h1>
+                    Descubra seu lugar<br>
+                    <span>entre as estrelas</span>
+                </h1>
+
+                <p class="descricao">
+                    Em um universo de heróis, criaturas mágicas e forças
+                    sombrias, cada escolha revela um pouco de quem somos.
+                    Responda ao questionário e descubra qual personagem
+                    combina com sua personalidade!
+                </p>
+
+                <div class="botoes">
+
+                    <a href="quiz.html" class="botao">
+                        Descobrir meu personagem ✦
+                    </a>
+
+                    <a href="personagens.html" class="botao secundario">
+                        Explorar personagens
+                    </a>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- DESTAQUES -->
+        <section class="destaques">
+
+            <p class="subtitulo">
+        ESCOLHA SEU DESTINO
+            </p>
+
+            <h2>Qual caminho você seguiria?</h2>
+
+            <p>
+                Conheça os diferentes perfis que habitam esta galáxia.
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <div class="icone">✧</div>
+
+                    <h3>Os Guardiões</h3>
+
+                    <p>
+                        Sabedoria, coragem e esperança para proteger
+                        o universo e ajudar os outros.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="icone">☄</div>
+
+                    <h3>Os Aventureiros</h3>
+
+                    <p>
+                        Criatividade, liberdade e curiosidade para
+                        explorar o desconhecido.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="icone">◈</div>
+
+                    <h3>As Sombras</h3>
+
+                    <p>
+                        Ambição, estratégia e determinação para
+                        conquistar grandes objetivos.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Projetado por Larissa Bueno | Ecos da Galáxia</p>
+    </footer>
+
+</body>
+
+</html>

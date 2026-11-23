@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Questionário | Ecos da Galáxia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jsquiz.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            ✦ ECOS DA GALÁXIA
+        </a>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="personagens.html">Personagens</a>
+            <a href="quiz.html">Questionário</a>
+        </nav>
+
+    </header>
+
+    <main class="quiz-container">
+
+        <!-- TÍTULO -->
+        <section class="titulo-pagina">
+
+            <p class="subtitulo">DESCUBRA SEU DESTINO</p>
+
+            <h1>
+                Qual personagem <span>é você?</span>
+            </h1>
+
+            <p>
+                Antes de começar sua jornada, queremos conhecer você.
+                Depois, responda às perguntas e descubra seu personagem galáctico!
+            </p>
+
+        </section>
+
+
+        <!-- IDENTIFICAÇÃO -->
+        <section class="quiz-card" id="identificacao">
+
+            <p class="subtitulo">✦ SUA JORNADA COMEÇA AQUI ✦</p>
+
+            <h2>Quem é você, viajante?</h2>
+
+            <p>
+                Preencha seus dados para desbloquear as perguntas
+                e descobrir seu destino nesta galáxia.
+            </p>
+
+            <form id="form-identificacao">
+
+                <label for="nome">
+                    Como podemos chamar você?
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    maxlength="80"
+                    autocomplete="given-name"
+                    required
+                >
+
+                <label for="nascimento">
+                    Sua data de nascimento:
+                </label>
+
+                <input
+                    type="date"
+                    id="nascimento"
+                    name="nascimento"
+                    required
+                >
+
+                <button type="submit" class="botao">
+                    Começar minha jornada ✦
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- QUESTIONÁRIO -->
+        <section class="quiz-card" id="area-quiz" hidden>
+
+            <!-- PROGRESSO -->
+            <div class="progresso-info">
+
+                <span id="numero-pergunta">
+                    PERGUNTA 1 DE 8
+                </span>
+
+                <span id="porcentagem">
+                    13%
+                </span>
+
+            </div>
+
+            <div class="progresso">
+
+                <div id="barra-progresso"></div>
+
+            </div>
+
+
+            <!-- PERGUNTAS -->
+            <div id="area-pergunta">
+
+                <h2 id="pergunta"></h2>
+
+                <div id="alternativas"></div>
+
+            </div>
+
+
+            <!-- RESULTADO -->
+            <div id="resultado" hidden></div>
+
+
+            <!-- BOTÕES -->
+            <div class="controles" id="controles">
+
+                <button
+                    id="voltar"
+                    class="botao secundario"
+                    type="button"
+                    disabled
+                >
+                    ← Voltar
+                </button>
+
+                <button
+                    id="proximo"
+                    class="botao"
+                    type="button"
+                    disabled
+                >
+                    Próxima →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- LINK PARA PERSONAGENS -->
+        <p class="voltar-inicio">
+
+            <a href="personagens.html">
+                Conhecer todos os personagens
+            </a>
+
+        </p>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>Projeto de Itinerário Formativo | Ecos da Galáxia</p>
+
+    </footer>
+
+</body>
+
+</html>
+
