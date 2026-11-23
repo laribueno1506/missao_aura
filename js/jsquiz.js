@@ -13,7 +13,7 @@ const personagens = {
     },
 
     "héron": {
-        imagem: "héron.jpg",
+        imagem: "heron.jpg",
         tipo: "A sentinela de visão excepcional",
         categoria: "O observador da equipe",
         descricao: "Você é extremamente atento, falante e cheio de energia. Sua visão é extraordinária e você percebe coisas que quase ninguém consegue enxergar. Apesar de sua aparência delicada e indefesa, possui uma força surpreendente. Não para quieto e está sempre observando tudo ao seu redor.",
@@ -22,7 +22,7 @@ const personagens = {
     },
 
     "Kassara": {
-        imagem: "Kassara.jpg",
+        imagem: "kassara.jpg",
         tipo: "A manipuladora das sombras",
         categoria: "A vilã enganadora",
         descricao: "Você é esperta, manipuladora e sabe muito bem como conseguir o que deseja. Não tem medo de mostrar sua maldade e até se orgulha dela. Sabe fingir ser bondosa, conquistar a confiança das pessoas e enganá-las quando isso pode trazer alguma vantagem.",
@@ -31,7 +31,7 @@ const personagens = {
     },
 
     "Kalya": {
-        imagem: "Kalya.jpg",
+        imagem: "kalya.jpg",
         tipo: "A guerreira alegre e protetora",
         categoria: "A protetora da equipe",
         descricao: "Você é animada, criativa, divertida e muito forte. Adora aventuras, tem ideias incríveis e consegue transformar situações difíceis em momentos divertidos. Mas não se engane com seu jeito descontraído: você protege seus amigos e enfrenta qualquer perigo para defender quem ama.",
@@ -40,7 +40,7 @@ const personagens = {
     },
 
     "Luke Stan": {
-        imagem: "Luke_Stan.png",
+        imagem: "luke_stan.png",
         tipo: "O viajante determinado",
         categoria: "O guerreiro da equipe",
         descricao: "Você é focado, forte e determinado. Assim como Luke Stan, sua jornada pode começar por acaso, mas você sabe encontrar seu caminho. Tem coragem para enfrentar desafios e um humor um tanto duvidoso, que pode surpreender quem está por perto.",
@@ -49,7 +49,7 @@ const personagens = {
     },
 
     "Vorkan": {
-        imagem: "Vorkan.jpg",
+        imagem: "vorkan.jpg",
         tipo: "O senhor das sombras",
         categoria: "O vilão individualista",
         descricao: "Você é frio, egoísta e não costuma se importar com o que os outros pensam. Gosta de fazer as coisas do seu próprio jeito e não aceita facilmente receber ordens. Sua personalidade difícil faz com que coloque seus próprios desejos acima de tudo.",
@@ -635,3 +635,4 @@ function reiniciarQuiz() {
     mostrarPergunta();
 
 }
+
